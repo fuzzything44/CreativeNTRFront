@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.content {
+    display: flex;
+}
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    max-width: 15vw;
+    padding: 1.5em;
+    color: #1b5206;
+    border-right: 1px solid rgb(90, 96, 237);
+}
+.sidebar p {
+    color: #000;
+}
+.scholarship {
+    flex-grow: 1;
+}
+.navbar {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: rgb(90, 96, 237);
+    background-color: rgb(227, 227, 227);
+    margin: 0em;
+    padding: 1em;
+    border-bottom: 1px solid rgb(90, 96, 237);
+}
+.navbar .active {
+    font-weight: bold;
+}
+.scholarship img {
+    max-width: 100%;
+}
