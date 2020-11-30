@@ -8,6 +8,8 @@ test("Tests can run", () => {
     const foo: string = "";
     // Some minor tsx, to ensure that tsx is properly being used.
     const bar: any = <div></div>;
+
+    expect(true).toEqual(false);
 });
 
 test("Hello is hello", () => {
