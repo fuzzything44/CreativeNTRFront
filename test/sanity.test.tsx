@@ -9,7 +9,7 @@ test("Tests can run", () => {
     // Some minor tsx, to ensure that tsx is properly being used.
     const bar: any = <div></div>;
 
-    expect(true).toEqual(false);
+    expect(true).toEqual(true);
 });
 
 test("Hello is hello", () => {
